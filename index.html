@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+    /* the first part of the question*/
+    var sum=0;
+    var sum2=0;
+    var num=[1,2,3,4,5,6,7,8,9,10];
+    for ( var i=0 ; i<10 ; i++)
+    {
+    if(num[i]%2==0){
+      sum=sum+num[i];
+    }
+     if(i<5){
+      sum2=sum2+num[i];
+    }
+    }
+    console.log( 'The sum of even numbers is ' + sum);
+    console.log('The sum of numbers that index<5 is ' + sum2);
+    
+    document.writeln( 'The sum of even numbers is ' + sum + '<br>'); /*the print on html page*/
+    document.write('The sum of numbers that index<5 is ' + sum2); /*the print on html page*/
+    document.write('<br>');
+    
+    /* end of first part */
+    
+    
+    /* the second part of the question*/
+
+    var object = {
+          name: 'Nour',
+          number: 986626377,
+          age: 27,
+          email: 'nourahmadalii29@gmail.com',
+    }
+         
+         console.log(object);
+    
+         console.log(object.name);
+         console.log(object.number);
+         console.log(object.age);
+         console.log(object.email );
+
+        document.write('<br>');
+        document.write(object.name + '<br>');
+        document.write(object.age + '<br>');
+        document.write(object.number + '<br>');
+        document.write(object.email + '<br>');
+
+    /* end of second part */ 
+ </script>
+</body>
+</html>
